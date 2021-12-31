@@ -1,0 +1,18 @@
+// Default variable overrides
+$primary: #fdc000;  //variables파일이 읽히기 전(위에)에 바꾸고자 하는 내용을 적어야함
+//$theme-colors를 사용한다면 그 안에있는 모든 컬러를 다 바꿔줄 거 아니면 variables 밑에다 정의해줘야함
+//안그러면 정의되지 않은 값때문에 오류남
+$container-max-widths: (
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+);
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
