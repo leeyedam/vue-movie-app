@@ -4,7 +4,7 @@ import _uniqBy from 'lodash/uniqBy'
 const _defaultMessage = 'Search for the movie title'
 
 export default{
-  namespaced:true,  //현재파일(movie.js)이 스토어에서 모듈화되어서 사용할 수 있다라는 걸 명시해주는 옵셔
+  namespaced:true,  //현재파일(movie.js)이 스토어에서 모듈화되어서 사용할 수 있다라는 걸 명시해주는 옵션
   state: ()=>({
     movies:[],
     message: _defaultMessage,
